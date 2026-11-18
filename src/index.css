@@ -1,0 +1,178 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --bg-primary: #0B0D12;
+    --bg-secondary: #11151D;
+    --bg-card: #151B26;
+    --bg-card-hover: #1A2232;
+    --text-primary: #F5F7FA;
+    --text-secondary: #A0A8B7;
+    --text-muted: #5B6278;
+    --accent: #6366f1;
+    --accent-hover: #4f46e5;
+    --accent-glow: rgba(99, 102, 241, 0.18);
+    --border: rgba(255, 255, 255, 0.07);
+    --border-hover: rgba(255, 255, 255, 0.13);
+    --shadow: rgba(0, 0, 0, 0.6);
+    --nav-bg: rgba(11, 13, 18, 0.88);
+  }
+
+  .light {
+    --bg-primary: #F7F8FC;
+    --bg-secondary: #ECEEF5;
+    --bg-card: #FFFFFF;
+    --bg-card-hover: #F0F2FA;
+    --text-primary: #0D1017;
+    --text-secondary: #4B5563;
+    --text-muted: #9CA3AF;
+    --accent: #4F46E5;
+    --accent-hover: #4338CA;
+    --accent-glow: rgba(79, 70, 229, 0.1);
+    --border: rgba(0, 0, 0, 0.07);
+    --border-hover: rgba(0, 0, 0, 0.13);
+    --shadow: rgba(0, 0, 0, 0.1);
+    --nav-bg: rgba(247, 248, 252, 0.88);
+  }
+
+  html {
+    scroll-behavior: smooth;
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+  }
+
+  body {
+    font-family: 'Inter', system-ui, sans-serif;
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
+
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+
+  ::-webkit-scrollbar {
+    width: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    background: var(--bg-primary);
+  }
+  ::-webkit-scrollbar-thumb {
+    background: var(--border-hover);
+    border-radius: 3px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--text-muted);
+  }
+}
+
+@layer utilities {
+  .text-gradient {
+    background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 50%, #a78bfa 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .light .text-gradient {
+    background: linear-gradient(135deg, #4F46E5 0%, #7C3AED 50%, #6366f1 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .section-padding {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+
+  @media (min-width: 768px) {
+    .section-padding {
+      padding-top: 7rem;
+      padding-bottom: 7rem;
+    }
+  }
+
+  .card-base {
+    background-color: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 0.75rem;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
+  }
+
+  .card-base:hover {
+    border-color: var(--border-hover);
+    box-shadow: 0 8px 32px var(--shadow);
+  }
+
+  .accent-btn {
+    background-color: var(--accent);
+    color: white;
+    transition: background-color 0.2s ease, box-shadow 0.2s ease, transform 0.15s ease;
+  }
+
+  .accent-btn:hover {
+    background-color: var(--accent-hover);
+    box-shadow: 0 4px 16px var(--accent-glow);
+    transform: translateY(-1px);
+  }
+
+  .accent-btn:active {
+    transform: translateY(0);
+  }
+
+  .ghost-btn {
+    border: 1px solid var(--border);
+    color: var(--text-secondary);
+    transition: border-color 0.2s ease, color 0.2s ease, background-color 0.2s ease;
+  }
+
+  .ghost-btn:hover {
+    border-color: var(--border-hover);
+    color: var(--text-primary);
+    background-color: var(--bg-card);
+  }
+
+  .nav-backdrop {
+    background-color: var(--nav-bg);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border-bottom: 1px solid var(--border);
+  }
+
+  .tech-badge {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.25rem 0.625rem;
+    border-radius: 9999px;
+    font-size: 0.75rem;
+    font-weight: 500;
+    background-color: var(--accent-glow);
+    color: var(--accent);
+    border: 1px solid rgba(99, 102, 241, 0.2);
+    white-space: nowrap;
+  }
+
+  .light .tech-badge {
+    border-color: rgba(79, 70, 229, 0.2);
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+}

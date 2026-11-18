@@ -1,0 +1,52 @@
+import {
+  Code2,
+  Server,
+  Monitor,
+  Database,
+  Layers,
+  GitBranch,
+  FileBarChart,
+  Terminal,
+  Building2,
+  Plug,
+  Network,
+  Landmark,
+  FileCheck,
+  GitMerge,
+  Users,
+  Repeat2,
+  BookOpen,
+  Puzzle,
+  Users2,
+  Shield,
+  Target,
+  type LucideIcon,
+} from 'lucide-react'
+
+export const iconMap: Record<string, LucideIcon> = {
+  Code2,
+  Server,
+  Monitor,
+  Database,
+  Layers,
+  GitBranch,
+  FileBarChart,
+  Terminal,
+  Building2,
+  Plug,
+  Network,
+  Landmark,
+  FileCheck,
+  GitMerge,
+  Users,
+  Repeat2,
+  BookOpen,
+  Puzzle,
+  Users2,
+  Shield,
+  Target,
+}
+
+export function getIcon(name: string): LucideIcon {
+  return iconMap[name] ?? Code2
+}
