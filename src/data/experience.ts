@@ -11,6 +11,8 @@ export const experiences: Experience[] = [
     responsibilities: [
       'Leading the Loan Origination System (LOS) engineering team',
       'Overseeing architecture, development, and delivery of enterprise banking solutions',
+      'Designing and building a configurable Credit Risk Grading (CRG) rule engine for both consumer and corporate loan scoring',
+      'Extending the rule engine to support eligibility checking for nano loan products modeled on mobile financial services (MFS) platforms such as bKash',
       'Developing banking solutions using Java, Spring Boot, and Angular',
       'Applying MVC and CQRS architectural patterns for scalable service design',
       'Implementing business workflows using Activiti and Flowable BPMN engines',
@@ -19,7 +21,7 @@ export const experiences: Experience[] = [
       'Debugging, code review, and maintaining QA standards',
       'Managing Agile processes, client requirements, deployments, and Git workflows',
     ],
-    technologies: ['Java', 'Spring Boot', 'Angular', 'Oracle', 'Activiti', 'Flowable', 'JasperReports', 'BIRT', 'CQRS', 'MVC'],
+    technologies: ['Java', 'Spring Boot', 'Angular', 'Oracle', 'Activiti', 'Flowable', 'JasperReports', 'BIRT', 'CQRS', 'MVC', 'Rule Engine'],
   },
   {
     id: 'unisoft',
@@ -50,7 +52,7 @@ export const experiences: Experience[] = [
     location: 'Dhaka, Bangladesh',
     type: 'work',
     responsibilities: [
-      'Developing Java and Spring Boot microservices for Core Banking Solutions',
+      'Contributing to Core Banking Solutions microservices alongside other Java and Spring Boot projects',
       'Implementing business logic and data structures',
       'Applying MVC and CQRS architectural patterns',
       'Working with Angular 6, JavaScript, and TypeScript for frontend',

@@ -29,7 +29,7 @@ export const skillCategories: SkillCategory[] = [
     id: 'architecture',
     title: 'Software Architecture',
     icon: 'Layers',
-    skills: ['MVC', 'CQRS', 'Microservices Architecture', 'Object-Oriented Programming', 'Design Patterns'],
+    skills: ['MVC', 'CQRS', 'Microservices Architecture', 'Object-Oriented Programming', 'Design Patterns', 'Credit Risk Grading (CRG)', 'Configurable Rule Engines'],
   },
   {
     id: 'workflow',

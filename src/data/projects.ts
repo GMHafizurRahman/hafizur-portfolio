@@ -23,21 +23,38 @@ export const projects: Project[] = [
       'Built on a layered MVC/CQRS architecture with Spring Boot services, Oracle persistence, and Angular SPA frontend. Workflow orchestration handled by Activiti/Flowable BPMN engine.',
   },
   {
+    id: 'crg-engine',
+    title: 'Credit Risk Grading (CRG) Engine',
+    category: 'Banking / Credit Risk Management',
+    status: 'Professional Experience',
+    description:
+      'A configurable rule engine implementing Credit Risk Grading (CRG) methodology for both consumer and corporate loan products, extended to support eligibility checking for nano loan offerings distributed through mobile financial services (MFS) platforms such as bKash.',
+    longDescription:
+      'Designed and built a configurable scoring and rule engine applying Credit Risk Grading (CRG) methodology across consumer and corporate loan applications, producing standardized risk assessments used in underwriting decisions. Extended the same rule-based approach to support eligibility checking for nano loan products — small, instant digital loans distributed through mobile financial services platforms such as bKash — reusing the engine instead of building separate logic per product line.',
+    technologies: ['Java', 'Spring Boot', 'Rule Engine', 'Oracle', 'MVC'],
+    highlights: [
+      'Configurable rule engine supporting both consumer and corporate loan CRG scoring',
+      'Rule-based eligibility checking for nano/micro loan products on MFS platforms (bKash-style)',
+      'Business rules configured rather than hardcoded, enabling reuse across loan categories',
+      'Integrated with the broader Loan Origination System for end-to-end underwriting',
+    ],
+    architectureNote:
+      'Rule-engine-driven design decoupling scoring logic from application code, allowing new loan products and risk criteria to be configured without redeployment.',
+  },
+  {
     id: 'cbs',
     title: 'Core Banking Solutions',
     category: 'Banking Technology',
     status: 'Professional Experience',
     description:
-      'Enterprise banking software involving business logic implementation, service development, and structured application architecture for financial institutions.',
+      'Contributed to core banking software involving business logic and service development for financial institutions, as part of a broader microservices team.',
     longDescription:
-      'Core banking system development involving complex financial business logic, transactional data management, and service-oriented architecture. The system supports banking operations including account management, transaction processing, and financial reporting.',
+      'Supporting contribution to core banking system development, working within a microservices-based service-oriented architecture. Involvement covered specific business logic modules rather than end-to-end ownership of the platform.',
     technologies: ['Java', 'Spring Boot', 'Angular', 'MVC', 'CQRS', 'Microservices', 'PostgreSQL'],
     highlights: [
-      'Microservices-based backend architecture for modularity and scalability',
-      'CQRS pattern implementation for read/write separation',
-      'Angular frontend for banking operations interfaces',
-      'Transactional integrity with Spring Data JPA and Hibernate',
-      'RESTful APIs for inter-service communication',
+      'Contributed to microservices-based backend modules',
+      'Worked within a CQRS-pattern service architecture',
+      'Implemented specific business logic components using Spring Data JPA and Hibernate',
     ],
     architectureNote:
       'Microservices architecture with CQRS pattern, deployed as independent services with shared database infrastructure.',

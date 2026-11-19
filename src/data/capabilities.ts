@@ -28,7 +28,7 @@ export const capabilities: Capability[] = [
   {
     id: 'banking',
     title: 'Banking Software Development',
-    description: 'Deep domain experience in banking technology — Core Banking Solutions, compliance-aware workflows, and financial data integrity.',
+    description: 'Deep domain experience in banking technology — configurable Credit Risk Grading engines, compliance-aware workflows, and financial data integrity.',
     icon: 'Landmark',
   },
   {
