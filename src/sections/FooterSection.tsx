@@ -42,6 +42,9 @@ export function FooterSection() {
         <p className="text-center text-xs" style={{ color: 'var(--text-muted)' }}>
           © {year} {profile.name}. All rights reserved.
         </p>
+        <p className="mt-1 text-center text-xs" style={{ color: 'var(--text-muted)' }}>
+          Built faster with the help of Claude Code, an AI coding agent.
+        </p>
       </Container>
     </footer>
   )

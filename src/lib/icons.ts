@@ -20,6 +20,8 @@ import {
   Users2,
   Shield,
   Target,
+  Bot,
+  Sparkles,
   type LucideIcon,
 } from 'lucide-react'
 
@@ -45,6 +47,8 @@ export const iconMap: Record<string, LucideIcon> = {
   Users2,
   Shield,
   Target,
+  Bot,
+  Sparkles,
 }
 
 export function getIcon(name: string): LucideIcon {

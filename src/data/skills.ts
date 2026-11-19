@@ -49,4 +49,10 @@ export const skillCategories: SkillCategory[] = [
     icon: 'Terminal',
     skills: ['Docker', 'Linux', 'Git', 'Kafka'],
   },
+  {
+    id: 'ai-engineering',
+    title: 'AI-Assisted Engineering',
+    icon: 'Bot',
+    skills: ['Claude Code (AI Coding Agent)', 'AI-Accelerated Development Workflows', 'Prompt Engineering', 'AI-Augmented Debugging & QA'],
+  },
 ]
