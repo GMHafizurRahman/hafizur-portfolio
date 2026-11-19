@@ -9,7 +9,7 @@ export const profile = {
   about: [
     'With over 5 years of professional experience in enterprise software engineering, I have built and led development of complex banking systems, loan origination platforms, and configurable credit risk grading engines across multiple organizations.',
     'My expertise lies at the intersection of backend engineering and technical leadership — designing scalable architectures using Java and Spring Boot, implementing business process workflows with Activiti and Flowable, and delivering reliable enterprise-grade applications to production.',
-    'I bring strong experience in the banking and fintech domain, having built Loan Origination Systems and configurable Credit Risk Grading (CRG) engines — extending into nano loan eligibility checks for mobile financial services platforms like bKash — that require precision, performance, and strict adherence to business rules.',
+    'I bring strong experience in the banking and fintech domain, having built Loan Origination Systems and configurable Credit Risk Grading (CRG) engines — extending into eligibility checks for mobile financial services (MFS) platforms known as Nano-Loan — that require precision, performance, and strict adherence to business rules.',
     'As a Technical Lead, I have supervised end-to-end software delivery, guided engineering teams, managed Agile processes, and collaborated directly with clients to understand and translate complex business requirements into working software.',
   ],
   badges: [

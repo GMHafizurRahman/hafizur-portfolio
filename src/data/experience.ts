@@ -12,7 +12,7 @@ export const experiences: Experience[] = [
       'Leading the Loan Origination System (LOS) engineering team',
       'Overseeing architecture, development, and delivery of enterprise banking solutions',
       'Designing and building a configurable Credit Risk Grading (CRG) rule engine for both consumer and corporate loan scoring',
-      'Extending the rule engine to support eligibility checking for nano loan products modeled on mobile financial services (MFS) platforms such as bKash',
+      'Extending the rule engine to support eligibility checking for mobile financial services (MFS) platforms known as Nano-Loan',
       'Developing banking solutions using Java, Spring Boot, and Angular',
       'Applying MVC and CQRS architectural patterns for scalable service design',
       'Implementing business workflows using Activiti and Flowable BPMN engines',

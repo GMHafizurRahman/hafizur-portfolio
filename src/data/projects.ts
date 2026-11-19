@@ -28,13 +28,13 @@ export const projects: Project[] = [
     category: 'Banking / Credit Risk Management',
     status: 'Professional Experience',
     description:
-      'A configurable rule engine implementing Credit Risk Grading (CRG) methodology for both consumer and corporate loan products, extended to support eligibility checking for nano loan offerings distributed through mobile financial services (MFS) platforms such as bKash.',
+      'A configurable rule engine implementing Credit Risk Grading (CRG) methodology for both consumer and corporate loan products, extended to support eligibility checking for mobile financial services (MFS) platforms known as Nano-Loan.',
     longDescription:
-      'Designed and built a configurable scoring and rule engine applying Credit Risk Grading (CRG) methodology across consumer and corporate loan applications, producing standardized risk assessments used in underwriting decisions. Extended the same rule-based approach to support eligibility checking for nano loan products — small, instant digital loans distributed through mobile financial services platforms such as bKash — reusing the engine instead of building separate logic per product line.',
+      'Designed and built a configurable scoring and rule engine applying Credit Risk Grading (CRG) methodology across consumer and corporate loan applications, producing standardized risk assessments used in underwriting decisions. Extended the same rule-based approach to support eligibility checking for mobile financial services (MFS) platforms known as Nano-Loan — small, instant digital loans — reusing the engine instead of building separate logic per product line.',
     technologies: ['Java', 'Spring Boot', 'Rule Engine', 'Oracle', 'MVC'],
     highlights: [
       'Configurable rule engine supporting both consumer and corporate loan CRG scoring',
-      'Rule-based eligibility checking for nano/micro loan products on MFS platforms (bKash-style)',
+      'Rule-based eligibility checking for MFS platforms known as Nano-Loan',
       'Business rules configured rather than hardcoded, enabling reuse across loan categories',
       'Integrated with the broader Loan Origination System for end-to-end underwriting',
     ],
