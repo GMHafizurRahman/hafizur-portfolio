@@ -64,7 +64,7 @@ export const capabilities: Capability[] = [
   {
     id: 'ai-engineering',
     title: 'AI-Accelerated Development',
-    description: 'Leveraging AI coding agents like Claude Code to move faster through repetitive, boilerplate-heavy work — while architecture decisions, core logic, and problem-solving stay fully hands-on. AI accelerates execution; the engineering judgment is mine.',
+    description: 'Leveraging AI and AI coding agents to move faster through repetitive, boilerplate-heavy work — while architecture decisions, core logic, and problem-solving stay fully hands-on. AI accelerates execution; the engineering judgment is mine.',
     icon: 'Sparkles',
   },
 ]

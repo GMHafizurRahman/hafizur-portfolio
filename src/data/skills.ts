@@ -53,6 +53,6 @@ export const skillCategories: SkillCategory[] = [
     id: 'ai-engineering',
     title: 'AI-Assisted Engineering',
     icon: 'Bot',
-    skills: ['Claude Code (AI Coding Agent)', 'AI-Accelerated Development Workflows', 'Prompt Engineering', 'AI-Augmented Debugging & QA'],
+    skills: ['AI Coding Agents', 'AI-Accelerated Development Workflows', 'Prompt Engineering', 'AI-Augmented Debugging & QA'],
   },
 ]
